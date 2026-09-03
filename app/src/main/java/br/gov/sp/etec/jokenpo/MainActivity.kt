@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+        // a
         imageComputador = findViewById<ImageView>(R.id.imageComputador)
         txtResultado = findViewById<TextView>(R.id.textResultado)
         val pedra = findViewById<ImageView>(R.id.imagePedra)
